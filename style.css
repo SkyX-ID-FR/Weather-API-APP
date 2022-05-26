@@ -1,0 +1,77 @@
+/* By SkyX [ID FR] **_** */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    background-color: #e0e0e0;
+    padding-top: 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+body .weather-card {
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    width: 300px;
+    height: 260px;
+    padding: 20px;
+    margin: auto;
+}
+
+body .weather-card #name_city {
+    border-color: transparent;
+    margin-bottom: 11px;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    width: 220px;
+    margin-left: 16%;
+}
+
+body .weather-card button {
+    border-color: transparent;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 230);
+    margin-left: 38%;
+}
+
+body .weather-card #temp_text {
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 65px;
+    position: fixed;
+}
+
+body .weather-card #celcus {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+body .weather-card #city_text {
+    margin-left: 22%;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+body .weather-card #temp_max_text, #temp_min_text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* END */
