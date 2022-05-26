@@ -1,0 +1,31 @@
+<!-- By SkyX [ID FR] **_** -->
+<html>
+
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    
+    <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/344/weather.png" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="weather-card">
+        <h1 id="temp_text">0</h1><p id="celcus">°C</p>
+        <h3 id="city_text">-</h3>
+
+        <input type="text" id="name_city" placeholder="Entrez le nom de la ville ici.">
+        <br><button type="button" onclick="request_to_API()">OK</button>
+
+        <br><br>
+        <p id="temp_max_text">-</p>
+        <p id="temp_min_text">-</p>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="index.js"></script>
+<!-- END -->
